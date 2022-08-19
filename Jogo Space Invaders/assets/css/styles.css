@@ -1,0 +1,204 @@
+@font-face {
+    font-family: Game-font;
+    src: url(../fonts/Retro\ Gaming.ttf);
+}
+
+.title {
+    font-family: Game-font;
+    font-size: 40px;
+    color: #FFFE00;
+}
+
+.information {
+    font-family: Game-font;
+    color: #FFAE00;
+}
+
+.play {
+    font-weight: bold;
+}
+
+.play:hover {
+    cursor: pointer;
+}
+
+body {
+    background-image: url(../img/background-game.jpg);
+}
+
+.container{
+    width: 950px;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-game{
+    width: 950px;
+    height: 650px;
+    background-image: url(../img/background-game-2.jpg);
+    border-color: #FFFFFF;
+    border-style: solid;
+}
+
+.start {
+    width: 550px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+	background-color: #36454F;
+}
+
+/* Fim da formatação do Cenário */
+
+/* Começo da formatação do jogador e seus inimigos */
+
+.player {
+    width:80px;
+	height:80px;
+	position:absolute;
+	left:8px;
+	top:179px;
+    background-image: url(../img/DurrrSpaceShip.png);
+    background-repeat: no-repeat;
+}
+
+/* Andromalius Enemy */
+
+.enemy {
+    width: 57px;
+	height: 88px;
+	position: absolute;
+	left: 840px;
+	top: 48px;
+	background-image: url(../img/spritesheets/andromalius-57x88.png);
+}
+
+.enemy2 {
+    width: 57px;
+	height: 88px;
+	position: absolute;
+	left: 701px;
+	top: 152px;
+	background-image: url(../img/spritesheets/andromalius-57x88.png);
+}
+
+.enemy3 {
+    width: 57px;
+	height: 88px;
+	position: absolute;
+	left: 801px;
+	top: 305px;
+	background-image: url(../img/spritesheets/andromalius-57x88.png);
+}
+
+.enemy4 {
+    width: 57px;
+	height: 88px;
+	position: absolute;
+	left: 693px;
+	top: 420px;
+	background-image: url(../img/spritesheets/andromalius-57x88.png);
+}
+
+
+.enemy5 {
+    width: 57px;
+	height: 88px;
+	position: absolute;
+	left: 832px;
+	top: 531px;
+	background-image: url(../img/spritesheets/andromalius-57x88.png);
+}
+/* Fim do Andromalius */
+
+/* Começo do Minion */
+.enemy6 {
+    width: 42px;
+	height: 66px;
+	position: absolute;
+	left: 726px;
+	top: 546px;
+	background-image: url(../img/spritesheets/minion-45x66.png);
+}
+
+.enemy7 {
+    width: 42px;
+	height: 66px;
+	position: absolute;
+	left: 663px;
+	top: 303px;
+	background-image: url(../img/spritesheets/minion-45x66.png);
+}
+
+.enemy8 {
+    width: 42px;
+	height: 66px;
+	position: absolute;
+	left: 750px;
+	top: 48px;
+	background-image: url(../img/spritesheets/minion-45x66.png);
+}
+
+.bullet {
+	width: 79px;
+	height: 79px;
+	position: absolute;
+	background-image: url(../img/beam.png);
+}
+
+.explosion {
+	width:96px;
+	height:96px;
+	position:absolute;
+}
+
+.placar {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	top: 590px;
+}
+
+.placar-title {
+	font-family:Game-font;
+	font-size:20px;
+	color:#FFF;
+}
+
+.life {
+	width: 140px;
+	height: 30px;
+	position: absolute;
+	left: 750px;
+	top: 7px;
+}
+
+.restart {
+	font-family:Game-font;
+	font-size:20px;
+	color:#603A03;
+
+}
+
+.end {
+	width:350px;
+	height:200px;
+	background-color:#FFF;
+ 	margin-left:auto;
+    margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+	padding:10px;
+	font-family: Game-font;
+
+}
+
+.playAgain:hover{
+    cursor: pointer;
+}
