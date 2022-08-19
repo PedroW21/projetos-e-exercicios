@@ -1,0 +1,154 @@
+:root {
+  --branco: #fefefe;
+  --cinza-claro: #888888;
+  --cinza-mais-clarinho: #d3d3d3;
+  --cinza-real: #555555;
+  --laranja-pastel: #c78c19;
+  --preto: #000000;
+  --verde-claro: #088c19;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(var(--branco), var(--cinza-claro));
+}
+
+/* Estilização Header */
+.navbar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--cinza-mais-clarinho);
+}
+
+.navbar-list {
+  display: flex;
+  border-top: 1px solid var(--preto);
+  border-bottom: 1px solid var(--preto);
+}
+
+.navbar-list-elements {
+  margin: 0.75rem;
+  font-size: 1.075em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-list-elements:hover {
+  color: var(--laranja-pastel);
+}
+
+.image-logo {
+  width: 10rem;
+}
+
+/* Products */
+
+.produtos {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.produto-card {
+  text-align: center;
+  border: 1px solid var(--preto);
+  border-radius: 4%;
+
+  width: 75%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+
+.produtos-card:hover {
+  color: var(--laranja-pastel);
+}
+
+.produtos-card:active {
+  border-color: var(--verde-claro);
+}
+
+.image-products {
+  width:60%;
+}
+
+.title-products {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 1.125rem;
+}
+
+.product-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+
+  margin: 0.5rem;
+}
+
+/* Footer */
+
+footer {
+  background: url(../img/bg2.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.image-logo {
+  width: 10rem;
+}
+
+.copyright {
+  color: var(--branco);
+  font-size: 1rem;
+}
+
+/* Para Tablets */
+
+@media screen and (min-width: 768px) {
+  .navbar-header {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2.5rem;
+  }
+
+  .navbar-list {
+    border: none;
+    font-size: 1.25em;
+  }
+
+  .produtos-container {
+    display: flex;
+    margin: 1rem;
+  }
+
+  .produto-card {
+    width: 50%;
+    margin: 0.5rem;
+  }
+
+  footer {
+    margin-top: 5rem;
+  }
+}
+
+@media  screen and (min-width: 1024px) {
+  
+  .produto-card:hover {
+    border-color: var(--laranja-pastel);
+  }
+  
+  .produto-card:active {
+    border-color: var(--verde-claro);
+  }
+
+  .produto-card:hover .title-products {
+    font-size: 2em;
+  }
+  
+
+}

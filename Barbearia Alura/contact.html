@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../barbearia-alura/css/reset.css">
+    <link rel="stylesheet" href="../barbearia-alura/css/contact-styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+    <title>Contato | Barbearia Alura</title>
+</head>
+
+
+
+<body>
+
+    <header class="cabecalho">
+        <section class="navbar-header">
+            <h1 class="image-container-header">
+                <img class="image-logo" src="../barbearia-alura/img/logo.png" alt="Logo Barbearia Alura">
+            </h1>
+
+            <nav>
+                <ul class="navbar-list">
+                    <li class="navbar-list-elements">
+                        <a href="../barbearia-alura/index.html">Home</a>
+                    </li>
+                    <li class="navbar-list-elements">
+                        <a href="../barbearia-alura/products.html">Produtos</a>
+                    </li>
+                    <li class="navbar-list-elements">
+                        <a href="../barbearia-alura/contact.html">Contatos</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section class="formulario-container">
+
+            <fieldset class="basic-informations">
+
+                <label class="titles-labels" for="name">Nome Completo</label>
+                <input type="text" id="name" class="input-padrao" placeholder="Ex: João da Silva" required>
+
+                <label class="titles-labels" for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" placeholder="seuemail@email.com" required>
+
+                <label class="titles-labels" for="telphone">Telefone</label>
+                <input type="tel" id="telephone" class="input-padrao" placeholder="(XX) 9.XXXX-XXXX"
+                    pattern="[0-9] {2}-[0-9] [5]-{0-9} {4}" maxlength="11" required>
+
+                <label class="titles-labels" for="mensage">Mensagem</label>
+                <textarea id="mensage" class="input-padrao" cols="60" rows="10"
+                    placeholder="Descreva o serviço que quer contratar, e caso tenha um modelo de corte já nos informe"
+                    required></textarea>
+
+            </fieldset>
+
+        </section>
+
+        <section class="formulario-meio-contato-container">
+            <form class="formulario-how-contact-you">
+
+
+                <fieldset class="how-to-contact-you social-media">
+
+                    <label class="title-social-media-contact">Como você prefere nosso contato?</label>
+
+                    <label for="Whatsapp">
+                        <input id="Whatsapp" name="contato" value="Whatsapp" type="radio" checked>
+                        WhatsApp
+                    </label>
+
+
+                    <label for="telegram">
+                        <input id="telegram" name="contato" value="telegram" type="radio">
+                        Telegram
+                    </label>
+
+
+                    <labe for="radio-email">
+                        <input id="radio-email" name="contato" value="email" type="radio">
+                        Email
+                    </labe>
+
+                </fieldset>
+
+                <fieldset class="your-time-to-cut">
+
+                    <label for="time">Qual horário prefere ser atendido?</label>
+                    <select name="time" id="time">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+
+                </fieldset>
+        </section>
+
+        <section class="container-botoes-formulario">
+
+            <label>
+                <input class="checkbox" id="checkbox-newsletter" type="checkbox" checked>
+                Gostaria de receber nossas novidades por email?
+            </label>
+
+            <input class="send-form" type="submit" value="Enviar Formulário">
+        </section>
+
+        
+
+        <section class="tabela-horarios-container">
+            <!-- <div class="tabela"> -->
+                <table class="tabela-horarios">
+
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>08h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>08h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>08h ~ 20h</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            <!-- </div> -->
+
+        </section>
+        </form>
+
+    </main>
+
+    <footer>
+        <img class="image-logo" src="../barbearia-alura/img/logo-branco.png" alt="Logo da Barbearia Alura">
+        <p class="copyright">&copy; Copyright Barbearia Alura – 2021</p>
+    </footer>
+
+</body>
+
+</html>

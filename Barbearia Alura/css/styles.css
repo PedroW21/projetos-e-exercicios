@@ -1,0 +1,184 @@
+:root {
+  --branco: #fefefe;
+  --cinza-claro: #888888;
+  --cinza-mais-clarinho: #d3d3d3;
+  --cinza-real: #555555;
+  --laranja-pastel: #c78c19;
+  --preto: #000000;
+  --verde-claro: #088c19;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(var(--branco), var(--cinza-claro));
+}
+
+/* Novo Codigo Css */
+
+/* Estilização Header */
+.navbar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--cinza-mais-clarinho);
+}
+
+
+
+.navbar-list {
+  display: flex;
+  border-top: 1px solid var(--preto);
+  border-bottom: 1px solid var(--preto);
+}
+
+.navbar-list-elements {
+  margin: 0.75rem;
+  font-size: 1.075em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-list-elements:hover {
+  color: #c78c19;
+}
+
+.image-logo {
+  width: 10rem;
+}
+
+/* Banner Barbearia */
+
+.banner-barbearia-main {
+  width: 90vw;
+}
+
+.banner-barbearia-main-2 {
+  display: none;
+}
+
+.banner-barbearia-main-container {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* Sobre Section */
+
+.title-main {
+  margin: 0.75rem;
+  text-align: center;
+
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.conteudo-about-us {
+  text-align: justify;
+}
+
+.conteudo-paragrafo {
+  margin: 0.75rem;
+  font-size: 1.0625em;
+}
+
+.missao {
+  font-style: italic;
+}
+
+.missao strong,
+.paragrafo-negrito strong {
+  font-weight: bold;
+}
+
+/* Maps Section */
+
+.maps {
+  text-align: center;
+}
+
+.mapa-google {
+  width: 85vw;
+}
+
+/* Our Benefits Section*/
+
+.our-services-conteudo {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.image-our-services {
+  width: 45vw;
+  margin: 0 0.5rem 0 0.5em;
+}
+
+.itens-our-services {
+  margin: 0 0 0.5rem 0.5rem;
+}
+
+.itens-our-services::before {
+  content: "✯";
+}
+
+.video {
+  margin: 0 auto;
+  width: 95vw;
+}
+
+/* Footer */
+
+footer {
+  background: url(../img/bg2.jpg);
+  text-align: center;
+}
+
+.copyright {
+  color: var(--branco);
+  font-size: 1rem;
+}
+
+/* Para Tablets */
+
+@media screen and (min-width: 768px) {
+  .navbar-header {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .navbar-list {
+    border: none;
+    font-size: 1.25em;
+  }
+
+  .banner-barbearia-main {
+    display: none;
+  }
+
+  .banner-barbearia-main-2 {
+    display: block;
+    width: 90vw;
+    margin: 2rem auto;
+    border-radius: 1px solid var(--preto);
+  }
+
+  .our-services {
+    margin: 2rem;
+  }
+
+  .conteudo-about-us {
+    width: 90vw;
+    margin: 2rem auto;
+  }
+
+  .our-services-conteudo {
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .video {
+    width: 75vw;
+    margin-bottom: 1rem;
+  }
+
+
+}

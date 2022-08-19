@@ -1,0 +1,294 @@
+:root {
+  --branco: #fefefe;
+  --cinza-claro: #888888;
+  --cinza-mais-clarinho: #d3d3d3;
+  --cinza-real: #555555;
+  --laranja-pastel: #c78c19;
+  --preto: #000000;
+  --verde-claro: #088c19;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(var(--branco), var(--cinza-claro));
+  box-sizing: border-box;
+}
+
+/* 
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+    
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px; 
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+fieldset {
+    border: none;
+}
+
+.send-form {
+    width: 40%;
+    padding: 15px 0;
+    background: #FFA500;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.send-form:hover {
+    background: #FF8C00;
+    transition: 1s all;
+    cursor: pointer;
+
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px; 
+}
+
+main {
+    position: relative;
+}
+
+.tabela {
+    position: absolute;
+    top: 0;
+    right: 5%;
+} */
+
+/* Novo Codigo Css */
+
+/* Estilização Header */
+
+.navbar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 2rem;
+
+  background-color: var(--cinza-mais-clarinho);
+}
+
+.navbar-list {
+  display: flex;
+  border-top: 1px solid var(--preto);
+  border-bottom: 1px solid var(--preto);
+}
+
+.navbar-list-elements {
+  margin: 0.75rem;
+  font-size: 1.075em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-list-elements:hover {
+  color: var(--laranja-pastel);
+}
+
+.image-logo {
+  width: 10rem;
+}
+
+/* Formulário */
+
+
+.basic-informations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.input-padrao {
+  width: 90vw;
+}
+
+.titles-labels {
+  font-size: 1.25rem;
+  margin: 0.75rem;
+}
+
+/* Meio de Contato */
+
+.how-to-contact-you {
+  display: flex;
+  flex-direction: column;
+  margin: 0.75rem;
+}
+
+.your-time-to-cut {
+  text-align: center;
+  margin: 0.75rem;
+}
+
+/* Botão */
+
+.container-botoes-formulario {
+  display: flex;
+  flex-direction: column;
+  margin: 0.75rem;
+}
+
+.send-form {
+  margin: 0.75rem auto;
+}
+
+/* Tabelinha Horarios */
+
+
+.tabela-horarios {
+  border: 1px solid var(--preto);
+  background-color: var(--branco);
+
+  margin: 0 auto;
+}
+
+thead {
+  background-color: var(--cinza-real);
+  color: var(--branco);
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid var(--preto);
+  padding: 8px 15px; 
+}
+
+
+/* Footer */
+
+footer {
+  background: url(../img/bg2.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 2.5rem;
+}
+
+.image-logo {
+  width: 10rem;
+}
+
+.copyright {
+  color: var(--branco);
+  font-size: 1rem;
+}
+
+/* Tablets */
+
+@media screen and (min-width: 768px) {
+  .navbar-header {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .navbar-list {
+    border: none;
+    font-size: 1.25em;
+  }
+
+  .input-padrao {
+    padding: 1.1em;
+  }
+
+  .social-media{
+    margin-left: 2rem;
+    font-size: 1.25em;
+  }
+
+  .title-social-media-contact {
+    margin: 0.25rem;
+  }
+
+  .your-time-to-cut {
+    margin: 1rem;
+  }
+
+  .container-botoes-formulario {
+    text-align: center;
+
+    margin-top: 1.5rem;
+  }
+
+}
+
+/* Desktops */
+
+@media  screen and (min-width: 1024px){
+
+  .formulario-container
+  {
+    width: 50vw;
+  }  
+
+  .basic-informations {
+    align-items: flex-start;
+    margin: 1rem;
+  }
+  
+  .input-padrao {
+    width: 50vw;
+  }
+
+  .container-botoes-formulario {
+    font-size: 1.25em;
+  }
+
+  .your-time-to-cut {
+    font-size: 1.25em;
+  }
+
+  .send-form {
+    font-size: 1em;
+  }
+
+  .tabela-horarios-container {
+    display: inline-block;
+
+    position: absolute;
+    top: 45%;
+    right: 15%
+  }
+
+  .tabela-horarios {
+    width: 100%;
+  }
+}
