@@ -1,0 +1,36 @@
+.footer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+}
+
+.list-item {
+    display: block;
+    margin: 12px 0;
+}
+
+.list-item:hover {
+    text-decoration: underline;
+    color: var(--branco);
+    transition: 0.2s;
+}
+
+.title {
+    color: var(--branco);
+    font-size: 1.125rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: var(--cinza-claro)
+}

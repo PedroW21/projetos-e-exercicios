@@ -1,0 +1,25 @@
+/* Header
+
+@media screen and (max-width: 320px) {
+    .nav-header, .my-stuffs {
+        display: none;
+    }
+
+}
+
+Main Carousel
+
+@media screen and (max-width: 320px){
+    .carousel-list {
+      width: 85%;
+    }
+  }
+
+Videos
+
+@media screen and (max-width:320) {
+    .container-keep-watch{
+        flex-direction: column;
+    }
+}
+ */

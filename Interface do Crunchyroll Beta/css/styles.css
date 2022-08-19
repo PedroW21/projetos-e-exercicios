@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@300;500&display=swap");
+
+:root {
+  --preto: #141414;
+  --laranja: #fab506;
+  --laranja-escuro: #f17100;
+  --branco: #ffffff;
+  --cinza-quase-preto: #272727;
+  --cinza-claro: #646464;
+  --azul-claro: #00dfdb;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--preto);
+}
+
+h2 {
+  color: var(--branco);
+  font-family: "Open Sans", Sans-serif;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+p {
+  font-family: "Open-sans", sans-serif;
+  color: var(--branco);
+  font-weight: bold;
+}
+
+.list-item {
+  font-family: "Open-sans", sans-serif;
+  color: var(--cinza-claro);
+}
+
+@media screen and (max-width: 320px) {
+  h2 {
+    font-size: 1.75rem;
+  }
+}
