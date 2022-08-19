@@ -1,0 +1,52 @@
+.event-year {
+  background: linear-gradient(180deg, #FFB354 0%, var(--dark-light-orange) 100%);
+  color: var(--white);
+  font-size: 1.875rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  
+  height: 4.25rem;
+  padding-top: 1.25rem;
+  text-align: center;
+}
+
+.lateral-nav {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.lateral-menu {
+  height: 100vh;
+  background-color: var(--white);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-items {
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom: 3px solid var(--border-sidebar-color);
+  padding-bottom: 0.313rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.menu-items:hover {
+  background: var(--light-orange-bg);
+  transition: .30s background;
+}
+
+
+.item-content {
+  margin-left: 12%;
+  text-decoration: none;
+  color: var(--light-brown-text);
+}
+
+
+.selected-page{
+  background: var(--light-orange-bg);
+  border-left: 5px solid var(--dark-light-orange);
+}

@@ -1,0 +1,66 @@
+.main-content__header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-top: 1.5rem;
+  }
+    
+  .lecture-title {
+    color: var(--dark-darker-orange);
+    font-weight: 900;
+    font-size: 1.25rem;
+    font-family: "Roboto";
+    width: 55%;
+  }
+  
+  .user-interaction {
+    margin-right: 5%;
+  }
+  
+  .btn-down {
+    color: var(--white);
+    height: 1.938rem;
+    width: 7.5rem;
+  }
+  
+  .down-icon {
+    content: url(../img/icons/download-icon.svg);
+    filter: invert();
+    width: 1.188rem;
+  }
+  
+  .small-btn {
+    width: 2.688rem;
+  }
+  
+  .bg-color {
+    background-color: var(--transition-color-btn);
+    transition: background-color .5s
+  }
+  
+  .star {
+    content: url(../img/icons/star-icon.svg);
+    filter: invert();
+    width: 1.188rem;
+  }
+  
+  .doi {
+    content: url(../img/icons/doi-icon.svg);
+  }
+  
+  .how-quote {
+    cursor: pointer;
+
+    color: var(--dark-darker-orange);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    
+    font-size: 1.125rem;
+    margin-top: 4%;
+    width: 15rem;
+    
+  }
+
+  .how-quote:hover {
+    text-decoration: underline var(--dark-darker-orange);
+  }
