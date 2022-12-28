@@ -35,5 +35,24 @@ Clique [aqui](https://space-invaders-eo21smmsp-pedrow21.vercel.app/) para ver o 
 
 ## Projeto Calculadora
 
-Projeto foi proposto no curso de Web Moderno (na Udemy) pelo professor, e decidi fazer sozinho e a minha versão, utilizei React 
-](https://github.com/PedroW21/calculator-project)
+Projeto foi proposto no curso de Web Moderno (na Udemy) pelo professor, e decidi fazer sozinho e a minha versão, utilizei React (com Class Componentes e State).
+
+Clique [aqui](https://calculator-project-khaki.vercel.app/) para ver o resultado. =D 
+
+## Projeto Listinha de Compras
+
+Projeto que fiz vendo uma necessidade que eu tinha: quanto já deu a compra? Será que esse item está mais barato do que eu já peguei antes?
+.
+Utilizei no projeto React (com Function Components e Hooks (so a parte do State))
+
+Clique [aqui](https://listinha-compras.vercel.app/) para ver o resultado. =D 
+
+## Projeto Entretenimento DB (Conteúdo Assistido)
+
+Projeto que utilizei resolver outro problema que eu tinha: a organização de filmes/séries/animes que quero ver e os que já vi.
+.
+No projeto eu utilizei:
+- Front-end: React (com Function Components e os Hooks), Bootstrap e o Font Awesome;
+- 'Back-end': JSON Server.
+
+Clique [aqui](https://filmes-assistidos.vercel.app/) para ver o resultado. =D 
