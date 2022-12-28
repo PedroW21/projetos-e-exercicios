@@ -55,4 +55,6 @@ No projeto eu utilizei:
 - Front-end: React (com Function Components e os Hooks), Bootstrap e o Font Awesome;
 - 'Back-end': JSON Server.
 
+**Obs: esse projeto em específico so a parte da interface está funcionando no momento, pois ainda estou aprendendo a como fazer essa integração pela internet XD**
+
 Clique [aqui](https://filmes-assistidos.vercel.app/) para ver o resultado. =D 
