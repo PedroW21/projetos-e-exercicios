@@ -4,7 +4,7 @@ Seguem os links dos projetos e exercícios que fiz com uma pequena descrição :
 
 ## Barbearia Alura
 
-Projeto final da formação HTML/CSS da Alura (que você pode ver clicando bem [aqui]()), utilizei um pouco de flex para responsividade do site e o restante foi HTML e CSS puro :D
+Projeto final da formação HTML/CSS da Alura, utilizei um pouco de flex para responsividade do site e o restante foi HTML e CSS puro :D
 
 Clique [aqui](https://barbearia-alura-one.vercel.app/index.html) para ver XD
 
@@ -30,3 +30,9 @@ Projeto proposto em um bootcamp da DIO, onde o desafio era criar um jogo em que 
 Foi usado HTML/CSS e jQuery numa versão mais antiga para utilizar um plugin que facilitaria o desenvolvimento do mesmo.
 
 Clique [aqui](https://space-invaders-eo21smmsp-pedrow21.vercel.app/) para ver o resultado. =D 
+
+# Os projetos abaixo foram feitos todos com React :)
+
+## Projeto Calculadora
+
+Projeto foi proposto no curso de Web Moderno (na Udemy) pelo professor, e decidi fazer sozinho e a minha versão, utilizei React 
