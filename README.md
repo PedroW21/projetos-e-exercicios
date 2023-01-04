@@ -1,4 +1,4 @@
-[# Links dos Projetos XD
+# Links dos Projetos XD
 
 Seguem os links dos projetos e exercícios que fiz com uma pequena descrição :D
 
