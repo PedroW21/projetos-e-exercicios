@@ -1,0 +1,15 @@
+.slider::-webkit-slider-thumb
+{
+    appearance: none;
+    background-color: #e2e1e7;
+    
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+}
+
+.slider::-webkit-slider-thumb:active
+{
+    background-color: #18171f;
+    border: 1px solid #a4ffaf;
+}
