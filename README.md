@@ -58,3 +58,13 @@ No projeto eu utilizei:
 **Obs: esse projeto em específico so a parte da interface está funcionando no momento, pois ainda estou aprendendo a como fazer essa integração pela internet XD**
 
 Clique [aqui](https://filmes-assistidos.vercel.app/) para ver o resultado. =D 
+
+## Projeto Gerador de Senhas
+
+Projeto com o objetivo de treinar meus conhecimentos, lógica e aprender novas tecnologias.
+.
+Utilizei nesse projeto: Vite (para testar sua eficiência comparado ao padrão create-react-app), TypeScript e o Tailwind CSS.
+
+PS: O projeto foi feito utilizando de referência o Frontend Mentor, segue o [link](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh) do design.
+
+Clique [aqui](https://password-generator-9juxsg65f-pedrow21.vercel.app/) para ver o resultado. =D 
