@@ -67,4 +67,4 @@ Utilizei nesse projeto: Vite (para testar sua eficiência comparado ao padrão c
 
 PS: O projeto foi feito utilizando de referência o Frontend Mentor, segue o [link](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh) do design.
 
-Clique [aqui](https://password-generator-9juxsg65f-pedrow21.vercel.app/) para ver o resultado. =D 
+Clique [aqui](https://password-generator-five-blush.vercel.app/) para ver o resultado. =D 
